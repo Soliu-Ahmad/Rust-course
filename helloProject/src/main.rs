@@ -17,12 +17,34 @@ fn main() {
 
     println!("Signed Integer: {}", x);
     println!("Unsigned Integer: {}", y);
-}
+    
+    // different between  i32 (2 bits) and i64(64 bits)
+    // range :
+    // i32: -2147483648 to 2147483647
+    // i64: -9223372036854775808 to 9223372036854775807
 
-// Floating Point
+    let e: i32 = 2147483647;
+    let f: i64 = 9223372036854775807;
+
+    println!("Signed Integer: {}", e);
+    println!("Signed Integer: {}", f);
+
+
+
+// Floating [floating point Types]
 // f32, f64
 
-// Boolean
-// bool
+let pi: f64 = 3.14;
+println!("value of pi: {}", pi);
 
-// Character
+// boolean values: true or false
+let is_valid: bool = true;
+println!("is_valid: {}", is_valid);
+
+// character type - char
+let letter: char = 'a';
+println!("first letter of the alphabet: {}", letter);
+
+
+}
+
