@@ -60,13 +60,6 @@ fn main() {
          println!("Slice value: {}", slice);
 
 
-         
-         
-         
-
-
-         
-
             // Two types of Formatting:
             // 1. Display Formatting: {}
             // 2. Debug Formatting: {:?}
