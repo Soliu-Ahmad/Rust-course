@@ -72,6 +72,3 @@ fn main() {
 
             println!("Name: {:?}, Age: {:?}", name, age);
 }
-
-
-
