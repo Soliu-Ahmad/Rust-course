@@ -119,12 +119,14 @@ fn calculate_length1(s: &String) -> usize {  // s is a reference to a String
 
 
 fn main() {
-    let _x: i32 = 5;
-    let _r: &i32 = &_x;  // Immutable reference to x
+    let mut _x: i32 = 5;
+
+    let _r: &mut i32 = &_x;  // Immutable reference to x
+
+    *_r  += 1;    
+    *_r  -= 3;    
+
     println!("Value of x is: {}", _x);
     println!("Value of r is: {}", _r);
 
-    
-
 }
-
