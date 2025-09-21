@@ -15,6 +15,8 @@ fn main() {
         println!("You cannot vote yet.");
     }
 
+    // Multiple conditions with else if
+
     let number = 6;
     if number % 4 == 0 {
         println!("number is divisible by 4");
@@ -25,6 +27,9 @@ fn main() {
     } else {
         println!("number is not divisible by 4, 3, or 2");
     }
+
+
+   
 
     // else if
     // let number: i32 = 6;
@@ -75,4 +80,11 @@ fn main() {
     //     println!("{}!", number);
     // }
     // println!("LIFTOFF!!!");
+
+      // Using if in a let statement
+    let condition = false;
+    let number = if condition { 5 } else { 6 };
+    println!("Number: {number}");
+
+   
 }
